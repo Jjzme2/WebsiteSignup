@@ -1,0 +1,17 @@
+{
+  "name": "ilytatdevelopment",
+  "version": "1.0.0",
+  "description": "Sign-up for ILYTAT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jj Zettler",
+  "license": "ISC",
+  "dependencies": {
+    "@mailchimp/mailchimp_marketing": "^3.0.74",
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "https": "^1.0.0"
+  }
+}

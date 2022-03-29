@@ -1,0 +1,64 @@
+/* font-family: 'Lato', sans-serif; */
+/* font-family: 'Yanone Kaffeesatz', sans-serif; */
+
+body {
+
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 500px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.title{
+  font-size: 2rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: blue;
+}
+
+.top{
+  /* margin-bottom: -1px; */
+  border-bottom: none;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.mid{
+  border-top: none;
+  border-bottom: none;
+}
+
+.bottom{
+  /* margin-bottom: 10px; */
+  border-top: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.agreement{
+  padding-top: 15px;
+}
+
+.returnHome{
+  color: white;
+  text-align: center;
+}
+
+.mailList{
+  background-color: #f1f1f1;
+  padding: 2rem;
+}
