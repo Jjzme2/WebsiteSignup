@@ -4,7 +4,7 @@ const https = require("https");
 const app = express();
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended:true}));
-const PORT = process.env.PORT;
+let PORT = process.env.PORT;
 const mailchimp = require("@mailchimp/mailchimp_marketing");
 
 
